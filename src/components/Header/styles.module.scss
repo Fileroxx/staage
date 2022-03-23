@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#header {
+  padding: 2rem 0;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  //   position: fixed;
+}
+
+#header .links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header .links a {
+  padding-left: 0.5rem;
+  padding-right: 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  transition: all ease-in 0.3s;
+}
+
+#header .links a:hover {
+  color: #f3722c;
+}
+
+#header .ArrowsIcon {
+  animation: leftToRight 1.5s infinite;
+  position: relative;
+}
+
+@keyframes leftToRight {
+  from {
+    left: 0px;
+  }
+
+  50% {
+    left: -6px;
+  }
+
+  to {
+    left: 0;
+  }
+}
