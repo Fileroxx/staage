@@ -4,8 +4,8 @@
   margin-left: 10%;
 
   background: url("../../../public/bgHero.png");
-  background-position: right;
-  background-size: 45%;
+  background-position: 90%;
+  background-size: 800px;
   background-repeat: no-repeat;
 
   .text {
@@ -19,7 +19,7 @@
     background-clip: text;
     text-fill-color: transparent;
 
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
@@ -27,6 +27,7 @@
     font-weight: 700;
     font-size: 2.5rem;
     width: 90%;
+    padding-top: 2rem;
   }
 
   p {
